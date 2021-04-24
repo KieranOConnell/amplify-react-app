@@ -1,1 +1,10 @@
-{}
+{
+  "auth": {
+    "amplifyreactapp3a285d28": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
