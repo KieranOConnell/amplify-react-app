@@ -16,7 +16,6 @@ function App() {
   const [images, setImages] = useState([]);
 
   useEffect(() => {
-    document.title = "Photo Gallery";
     fetchImages();
   }, []);
 
@@ -84,4 +83,4 @@ function App() {
   );
 }
 
-export default withAuthenticator(App, document.title = "Photo Gallery");
+export default withAuthenticator(App);
