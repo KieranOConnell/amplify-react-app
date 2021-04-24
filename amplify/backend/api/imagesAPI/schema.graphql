@@ -1,0 +1,7 @@
+type Image @model {
+  id: ID!
+  location: String!
+  photographer: String!
+  filePath: String!
+  likes: Int!
+}
