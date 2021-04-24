@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
@@ -15,11 +15,10 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 5vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -35,4 +34,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.pageTitle {
+  display: flex;
+  align-items: center;
+}
+
+.imageList {
+  display: flex;
+  flex-direction: column;
+}
+
+.imageCard {
+  display: flex;
+  justify-content: space-around;
+  padding: 3vh;
+}
+
+.imageLocation {
+  font-weight: bold;
 }
