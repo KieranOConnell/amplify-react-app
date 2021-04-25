@@ -98,7 +98,7 @@ function App() {
           )}
         </div>
         <div className="imageList">
-          { images.map((image, idx) => {
+          { images.sort((a, b) => b.likes - a.likes).map((image, idx) => {
               return (
                 <Paper variant="outlined" elevation={2} key={`image${idx}`}>
                   <div className="imageCard">
