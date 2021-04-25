@@ -48,11 +48,39 @@
 }
 
 .imageCard {
-  display: flex;
-  justify-content: space-around;
-  padding: 3vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  padding: 3vh 10vw;
 }
 
 .imageLocation {
   font-weight: bold;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 3vh 0;
+}
+
+.imageDisplay {
+  width: 50%;
+  height: 50%;
+}
+
+.addImage {
+  display: flex;
+  justify-content: center;
+  padding: 5vh;
+}
+
+.newImage {
+  display: flex;
+  align-items: baseline;
+}
+
+.newImage > div, .newImage > button {
+  margin: 0 0.5vw;
 }
